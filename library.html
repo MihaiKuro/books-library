@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Library</h1>
+    </header>
+    <main class="main-container">
+        <dialog id="dialog">
+            <form id="addBookForm">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" required>
+                <label for="author">Author</label>
+                <input type="text" id="author" name="author" required>
+                <label for="pages">Pages</label>
+                <input type="number" id="pages" name="pages" required>
+                <label for="read">Read</label>
+                <input type="checkbox" id="read" name="read">
+                <button class="btn btn-add" id="submitBook">Submit</button>
+            </form>
+        </dialog>
+       <button class="btn btn-add" id="addBook">Add Book</button>
+       <div class="books-grid" id="booksGrid"></div>
+
+    </main>
+    <footer class="footer">
+        <p>Created by me</p>
+    </footer>
+
+</body>
+</html>
